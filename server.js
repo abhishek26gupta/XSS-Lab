@@ -5,7 +5,7 @@ const app = express();
 const PORT = 3000;
 
 // List of allowed origins for CORS (main site)
-const allowedReferers = ['http://localhost:3000'];  // Change this to your actual main site's origin
+const allowedReferers = ['https://xss-lab.onrender.com/'];  // Change this to your actual main site's origin
 
 // Middleware to enable CORS for specific origins
 
